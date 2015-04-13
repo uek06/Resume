@@ -1,0 +1,55 @@
+{
+  "person": {
+    "lastName": "EL KOUBI",
+    "firstName": "Ugo",
+    "adress" : "37 Chemin de Saint Etienne 06570 Saint Paul de Vence FRANCE",
+    "dateBirth" : "20/01/1994",
+    "phone" : "+33 6 28 04 82 84",
+    "mail" : "elkoubi@polytech.unice.fr",
+    "website" : "user.polytech.unice.fr/~elkoubi",
+    "status" : "Engineer",
+    "profile1" : "I am currently pursuing my first year in Computer Engineering. I am a very serious and hardworking student. During my training, I learned innovation, team-work and problem solving. My personal goal is to be as efficient as I can be.",
+    "profile2" : "Thanks to my longtime tennis practice, I developed a strong sense of competition. I also managed to express my taste for creativity through my musical passion, and my band experience as a bassist."
+
+  },
+  "professionalExperience": [
+    {
+      "name" : "Ice cream parlour Riva Dolce, Vence",
+      "job" : "Multipurpose employee",
+      "date" : "July 2013 & 2014",
+      "description" : "Customer relation, sales, order preparation, inventory management, check-out."
+    },
+    {
+      "name" : "Villeneuve Loubet’s city hall",
+      "job" : "Handling officer",
+      "date" : "June 2013",
+      "description" : "Medieval event François 1er."
+    },
+    {
+      "name" : "Villeneuve Loubet’s city hall",
+      "job" : "Barman",
+      "date" : "May 2013",
+      "description" : ""
+    }
+  ],
+  "projects": [
+    {
+      "name" : "Ice cream parlour Riva Dolce, Vence",
+      "job" : "Multipurpose employee",
+      "date" : "July 2013 & 2014",
+      "description" : "Customer relation, sales, order preparation, inventory management, check-out."
+    },
+    {
+      "name" : "Villeneuve Loubet’s city hall",
+      "job" : "Handling officer",
+      "date" : "June 2013",
+      "description" : "Medieval event François 1er."
+    },
+    {
+      "name" : "Villeneuve Loubet’s city hall",
+      "job" : "Barman",
+      "date" : "May 2013",
+      "description" : ""
+    }
+  ]
+}
