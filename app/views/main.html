@@ -1,14 +1,11 @@
 <div id="header">
   <ul>
-    <li><a href="#">Portfolio</a></li>
-
-    <li><a href="#">Contact</a></li>
-  </ul><a href="#" class="social_contact">facebook</a> <a href="#" class=
-  "social_contact">twitter</a>
+    <li><a href="#contact">Contact</a></li>
+  </ul><a href="https://www.facebook.com/ugo.elkoubi" class="social_contact">facebook</a>
 </div>
 
 <div class="section sectiontop">
-  <img src="img/profilepicture2.png" id="profilepicture" width="110" height="110"
+  <img src="images/photo.jpg" id="profilepicture" width="110" height="110"
        alt="profile_picture" />
 
   <h1>{{name}}</h1>
@@ -41,21 +38,20 @@
 
 <div class="section education">
   <div class="left">
-    <h3>Projects</h3>
+    <h3>Professional experiences</h3>
   </div>
 
   <div class="right">
 
     <!--<li ng-repeat="p in projects">{{p}}</li>-->
-    <div class="row" ng-repeat="p in projects">
+    <div class="row" ng-repeat="p in professionalExperiences">
 
       <h4>{{p.job}}</h4>
 
       <h5>{{p.name}}</h5>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a pulvinar
-        tellus. Donec laoreet posuere felis, sit amet convallis urna porta
-        in.</p><a href="#">2008-2012</a>
+      <p>{{p.description}}
+      </p><a href="#">{{p.date}}</a>
     </div>
   </div>
 </div>
@@ -63,100 +59,35 @@
 <div class="section education">
   <div class="left">
     <h3>Education</h3>
-
-    <p>Nullam a pulvinar tellus. Donec laoreet posuere felis, sit amet convallis
-      urna porta in.</p>
   </div>
 
   <div class="right">
-    <div class="row selection_education">
-      <h4>Stanford University</h4>
+    <!--<div class="row selection_education">-->
+    <div class="row" ng-repeat="p in education">
+      <h4>{{p.school}}</h4>
 
-      <h5>Graphich Designer</h5>
+      <h5>{{p.name}}</h5>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a pulvinar
-        tellus. Donec laoreet posuere felis, sit amet convallis urna porta
-        in.</p><a href="#">2008-2012</a>
-    </div>
-
-    <div class="row">
-      <h4>Boston High School</h4>
-
-      <h5>Graphich</h5>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a pulvinar
-        tellus. Donec laoreet posuere felis, sit amet convallis urna porta
-        in.</p><a href="#">2004-2008</a>
-    </div>
+      <p>{{p.description}}
+      </p><a href="#">{{p.date}}</a>
+      </div>
   </div>
 </div>
 
 <div class="section technical">
   <div class="left">
-    <h3>Technikal Skills</h3>
+    <h3>Technical Skills</h3>
   </div>
 
   <div class="right">
     <div class="right_right">
-      <h4>Adobe Photoshop</h4>
-      <div class="progress-bar green">
-        <span style="width: 90%"></span>
+      <div ng-repeat="l in technicalSkills">
+        <h4>{{l.name}}</h4>
+        <div class="progress-bar green">
+          <span style="width: 90%"></span>
+        </div>
       </div>
-      <h4>HTML/CSS</h4>
-      <div class="progress-bar orange">
-        <span style="width: 80%"></span>
-      </div>
-      <h4>PHP</h4>
-      <div class="progress-bar orange">
-        <span style="width: 60%"></span>
-      </div>
-      <h4>Javascript</h4>
-      <div class="progress-bar red">
-        <span style="width: 40%"></span>
-      </div>
-    </div>
-
-    <div class="right_left">
-      <p><span>Aenean venenatis convallis diam eget sagittis. Donec iaculis felis a
-            est ultrices dapibus.</span></p>
-
-      <p>Sed cursus quam ac nibh convallis vitae faucibus quam condimentum. Nulla
-        elementum ultrices fermentum. Nulla non dolor odio, quis dictum dui. Aenean
-        venenatis convallis diam eget sagittis. Donec iaculis felis a est ultrices
-        dapibus.</p>
     </div>
   </div>
 </div>
 
-<div class="section contact">
-  <div class="left">
-    <h3>Contact</h3>
-
-    <p>Suspendisse a nulla vitae orci dictum facilisis.</p>
-  </div>
-
-  <div class="right">
-    <form class="form" action="#">
-      <p class="name"><input type="text" name="name" id="name" value="Name" /></p>
-
-      <p class="email"><input type="text" name="email" id="email" value="E-mail" /></p>
-
-      <p class="text">
-            <textarea name="text" rows="" cols="">Text
-</textarea></p>
-
-      <p class="submit"><input type="submit" value="Send" /></p>
-    </form>
-
-    <p class="contact_text">Sed cursus quam ac nibh convallis vitae faucibus quam
-      condimentum. Nulla elementum ultrices fermentum. Nulla non dolor odio, quis
-      dictum dui. Aenean venenatis convallis diam eget sagittis. Donec iaculis felis
-      a est ultrices dapibus.</p>
-
-    <div id="contact_icons">
-      <a href="#" class="social_contact">facebook</a> <a href="#" class=
-      "social_contact">twitter</a> <a href="#" class="social_contact">deviantArt</a> <a href="#"
-                                                                                        class="social_contact">Google+</a>
-    </div>
-  </div>
-</div>

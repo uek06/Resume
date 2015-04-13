@@ -12,7 +12,7 @@
     "profile2" : "Thanks to my longtime tennis practice, I developed a strong sense of competition. I also managed to express my taste for creativity through my musical passion, and my band experience as a bassist."
 
   },
-  "professionalExperience": [
+  "professionalExperiences": [
     {
       "name" : "Ice cream parlour Riva Dolce, Vence",
       "job" : "Multipurpose employee",
@@ -32,24 +32,50 @@
       "description" : ""
     }
   ],
-  "projects": [
+  "education": [
     {
-      "name" : "Ice cream parlour Riva Dolce, Vence",
-      "job" : "Multipurpose employee",
-      "date" : "July 2013 & 2014",
-      "description" : "Customer relation, sales, order preparation, inventory management, check-out."
+      "school" : "Polytech Nice Sophia",
+      "name" : "Cycle ingénieur Sciences Informatiques",
+      "date" : "2014 - 2017",
+      "description" : "Graduate Engineering School, a three-year degree in Computer Science."
     },
     {
-      "name" : "Villeneuve Loubet’s city hall",
-      "job" : "Handling officer",
-      "date" : "June 2013",
-      "description" : "Medieval event François 1er."
+      "school" : "Polytech Nice Sophia",
+      "name" : "Prépa Intégrée PEIP",
+      "date" : "2012 - 2014",
+      "description" : "A two-year in school preparatory degree in engineering (mathematics, physics, electronic and computer science)."
     },
     {
-      "name" : "Villeneuve Loubet’s city hall",
-      "job" : "Barman",
-      "date" : "May 2013",
-      "description" : ""
+      "school" : "Lycée Henri Matisse, Vence, France",
+      "name" : "Baccalauréat Scientifique section Européenne (English/Italian), mention Bien",
+      "date" : "2009 - 2012",
+      "description" : "Scientific subjects, equivalent to British A Levels or American High School Diploma, with honors."
+    }
+  ],
+  "technicalSkills": [
+    {
+      "name" : "HTML/CSS",
+      "percentage" : "65"
+    },
+    {
+      "name" : "PHP",
+      "percentage" : "60"
+    },
+    {
+      "name" : "Javascript",
+      "percentage" : "80"
+    },
+    {
+      "name" : "Java",
+      "percentage" : "70"
+    },
+    {
+      "name" : "Python",
+      "percentage" : "50"
+    },
+    {
+      "name" : "C",
+      "percentage" : "30"
     }
   ]
 }

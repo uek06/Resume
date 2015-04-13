@@ -26,7 +26,9 @@ $http.get('images/model.json').
     $scope.status = data.person.status;
     $scope.profile1 = data.person.profile1;
     $scope.profile2 = data.person.profile2;
-    $scope.projects = data.projects;
+    $scope.professionalExperiences = data.professionalExperiences;
+    $scope.education = data.education;
+    $scope.technicalSkills = data.technicalSkills;
   })
 
 });
